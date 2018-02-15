@@ -1,37 +1,117 @@
 body {
   font-size: 100%;
-  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
 
-p {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-weight: lighter;
-  color: #2d2d2d;
-}
-
-/* TODO: size images manually so this is not necessary */
 img {
+  max-width: 100%
+}
+/**************** HERO *****************/
+header img {
+  max-height: 9rem;
+  margin-right: 0.5rem;
+}
+h1 {
+  color: #4C81CE;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.logo-w {
+  font-family: 'Concert One', cursive;
+  color: #4C81CE;
+  font-size: 3.7rem;
+}
+.logo {
+  display: inline-flex;
+  align-items: flex-end;
+  margin: 0.5rem;
+}
+/***************** NAV *****************/
+nav a:hover {
+  text-decoration: none;
+  color: #1A256D;
+}
+
+.active { background-color: white;
+          color: #4C81CE; 
+          bordeR: 1px solid #4C81CE;
+}
+nav {
+  background-color: #4C81CE;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.3rem;
+  display: inline-flex;
+  padding: 0.5rem 1.5rem;
+}
+
+ul {
+  display: inline-flex;
+}
+/*********** PRODUCTS SECTION ***********/
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+}
+.card {
+  margin: 1rem;
+  padding: 1rem;
+  flex: 20%;
+  background-color: white;
+}
+
+.card:hover {  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #4C81CE;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+p {
+  color: grey;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+}
+.addtocart {
+  background-color: #4C81CE;
+  color: white;
+  margin-top: 0.7rem;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.price {
+  font-size: 1.2rem;
+  margin-top: 0.7rem;
+  font-weight: 400;
+}
+
+.buy {
+ position:relative;
+  
+}
+
+.img {
+  margin-bottom: 0.7rem;
   max-height: 20rem;
 }
-
-/***************** NAV *****************/
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/**************** HERO *****************/
-
-header img {
-  max-height: 6rem;
-}
-
-h1 .logo-w {
-  font-size: 3.5rem;
-}
-
 /**************** ASIDE ****************/
-
+aside {
+  margin: 1rem;
+}
 input[type="submit"] {
   padding: .25rem;
   background-color: #3D7FCF;
@@ -40,22 +120,7 @@ input[type="submit"] {
   font-size: .75rem;
   color: white;
 }
-
-/*********** PRODUCTS SECTION ***********/
-
-section {
-  padding: 0 .75rem;
-}
-
-h2 {
-  padding-top: 1.5rem;
-  font-size: 2rem;
-  text-align: center;
-  color: #2d2d2d;
-}
-
-h3 {
-  font-size: 1.2rem;
-  text-align: center;
-  color: #2d2d2d;
+label {
+  color: #4C81CE;
+  font-weight: 500;
 }
