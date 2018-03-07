@@ -84,12 +84,14 @@ p {
 .addtocart {
   background-color: #4C81CE;
   color: white;
-  align-self: flex-end;
-  margin: 1rem;
+  margin: 0.5rem;
   padding: 0.3rem;
   font-size: 1.2rem;
   font-weight: 500;
-  align-self: flex-start;
+}
+
+.addtocart:hover {
+  border: 3px solid white; 
 }
 .price {
   font-size: 1.2rem;
