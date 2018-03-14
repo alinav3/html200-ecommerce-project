@@ -69,4 +69,55 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing
-[update this section with information about the testing steps you took to ensure site quality]
+<!--[update this section with information about the testing steps you took to ensure site quality]-->
+
+## Areas of interest
+1 Product categories and listings (Hats, Gloves, Scarves)
+2 Store hours and location
+3 About the brand
+4 Contact info
+
+## Audience group:
+- major audience: women how are interested in fashion (attached word document with audience classification) 1-5
+- Men who are looking to buy a warm gift for their mom or a friend 1, 2
+- Competators (other companies who are selling winter clothing) 1, 3
+- Web designers and developes who are looking for ideas for their projects 1-5
+- Fashion designers who are looking for some inspiration for their coming winter collection 1
+- Job seekers 3, 4
+
+## Performance Results 
+www.webpagetest.org
+https://tools.pingdom.com
+
+First Byte Time - A
+Keep-alive Enabled - A
+Compress Transfer - A
+Compress Images - F
+Cache static content - F
+Effective use of CDN - V
+Load time - 315 ms
+Page size - 771.9 kb (556.01kb / 72% images)
+
+Conclusion: Images are too big and slow down the website. Improvement needed.
+
+## Testing the website on relevant browsers and devices for the target audience:
+Smartphones:
+iPhone 6, 7, 7 plus, 6s, 6 plus
+Samsung Galaxy S7, S6, S5
+
+Tablets:
+Apple iPad Pro, iPad Mini,  iPad Air 2
+Microsoft Surface Pro 4, Samsung Galaxy Tab S2, Google Pixel C
+
+Desktop screen resolutions: 
+1920x1080, 1366x768, 1280x1024, 1280x800, 1024x768
+
+## Testing tools
+http://responsivedesignchecker.com
+Firefox Developer Tools
+Chrome DevTools
+
+Conclusion:
+Website looks good on small mobile devices. All product cards stack on top of each other in one column. 
+
+Website responds well to bigger screens. Cards organized in 4 columns. Descriptions text on the cards and sign up output on the footer needs improvement, font size looks too small. 

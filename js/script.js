@@ -1,12 +1,17 @@
-// Add/remove items from cart 
-
+// Add/remove items from cart
 var cart=[];
-function addItem(name){
-  var singleProduct = {};
-  singleProduct.Name=name;
-  cart.push(singleProduct);
+function addItem(name){ 
+  var singleProduct = {}; 
+  singleProduct.Name=name; 
+  var i = cart.indexOf(singleProduct) 
+  if(i < 0){ 
+    cart.push(singleProduct); 
+  } else { 
+    cart.splice(i, 1) 
+  } 
   console.log(cart); 
 }
+
 
 // footer
 function capture(){
@@ -14,6 +19,8 @@ function capture(){
   var custEmail = document.custInfo.email.value
   console.log("Thanks for signing up for our newsletter," + " " + custEmail)
 }
+
+
 //{
 //  event.preventDefault()
 //}
